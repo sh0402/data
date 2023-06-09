@@ -343,13 +343,14 @@ footer .copyright {
     line-height: 1.2 !important;
     list-style: none !important;
     margin-bottom: 3.33vw !important;
-    text-indent: -5.83vw !important;
+    text-indent: -7.50vw !important;
   }
 
   .guidebox .guide-list ul li::before {
+    line-height: 1.4 !important;
     margin-right: 1.25vw !important;
-    width: 3.33vw !important;
-    height: 3.33vw !important;
+    width: 5.00vw !important;
+    height: 5.00vw !important;
     font-size: 3.33vw !important;
   }
 
@@ -480,13 +481,14 @@ footer .copyright {
       line-height: 1.2 !important;
       list-style: none !important;
       margin-bottom: 3.33vw !important;
-      text-indent: -7.77vw !important;
+      text-indent: -8.89vw !important;
     }
 
     .guidebox .guide-list ul li::before {
+      line-height: 1.4 !important;
       margin-right: 1.66vw !important;
-      width: 4.44vw !important;
-      height: 4.44vw !important;
+      width: 5.56vw !important;
+      height: 5.56vw !important;
       font-size: 3.33vw !important;
     }
 

@@ -245,6 +245,10 @@ footer .copyright {
     width: 100% !important;
   }
 
+  #message_view_table {
+    height: 100vh !important;
+  }
+
   #message_view_table ul {
     padding: 3.33vw 0 !important;
   }
@@ -389,7 +393,9 @@ footer .copyright {
     article.article_view>div {
       width: 100% !important;
     }
-
+    #message_view_table {
+      height: 100vh !important;
+    }
     #message_view_table ul {
       padding: 4.44vw 0 !important;
     }

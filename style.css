@@ -239,18 +239,23 @@ footer .copyright {
   opacity: 0.6 !important;
 }
 
-@media (max-width: 360px) {
+/* VIEWPOINT-480px */
+@media (max-width: 480px) {
   article.article_view>div {
     width: 100% !important;
   }
-  
+
   #message_view_table ul {
-    padding: 4.44vw 0 !important;
+    padding: 2.50vw 0 !important;
+  }
+
+  #message_view_table ul li {
+    list-style: none;
   }
 
   span.line {
     margin: 0;
-    margin: 6.66vw 0 !important;
+    margin: 5.00vw 0 !important;
   }
 
   span.pc-only {
@@ -260,31 +265,37 @@ footer .copyright {
 
   .container {
     max-width: 100vw !important;
-    padding: 8.88vw 3.33vw !important;
+    padding: 6.67vw 3.33vw !important;
   }
 
   .title .title-text h5 {
-    font-size: 4.44vw !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
   .title .title-text h5 span {
     margin: 0;
-    font-size: 4.44vw !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
   .info {
-    padding: 3.33vw !important;
+    padding: 2.50vw !important;
   }
 
   .info .info-text {
-    margin-bottom: 3.33vw !important;
+    margin-bottom: 2.50vw !important;
   }
 
   .info .info-text span {
     margin: 0;
-    font-size: 3.88vw !important;
+    font-size: 2.92vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .info .info-text span span {
+    margin: 0;
+    font-size: 2.92vw !important;
     line-height: 1.4 !important;
   }
 
@@ -295,7 +306,8 @@ footer .copyright {
   .certificate {
     width: 100% !important;
     background: unset !important;
-    padding: 4.44vw 0 !important;
+    padding: 2.50vw 0 !important;
+    background: #E2E2E2 !important;
   }
 
   .certificate .certificate-image {
@@ -306,53 +318,53 @@ footer .copyright {
   }
 
   .button-group button {
-    font-size: 3.88vw !important;
+    font-size: 2.92vw !important;
     line-height: 1.4 !important;
   }
 
   .button-group button span {
     margin: 0;
-    font-size: 3.88vw !important;
+    font-size: 2.92vw !important;
     line-height: 1.4 !important;
   }
 
   .guidebox {
-    margin-bottom: 6.66vw !important;
+    margin-bottom: 5.00vw !important;
   }
 
   .guidebox h6 {
-    font-size: 4.44vw !important;
+    font-size: 2.50vw !important;
   }
 
   .guidebox .guide-list ul li {
     list-style: none !important;
-    margin-bottom: 3.33vw !important;
-    text-indent: -7.77vw !important;
+    margin-bottom: 2.50vw !important;
+    text-indent: -5.0vw !important;
   }
 
   .guidebox .guide-list ul li::before {
-    margin-right: 1.66vw !important;
-    width: 4.44vw !important;
-    height: 4.44vw !important;
-    font-size: 3.33vw !important;
+    margin-right: 1.25vw !important;
+    width: 2.50vw !important;
+    height: 2.50vw !important;
+    font-size: 2.50vw !important;
   }
 
   .guidebox .guide-list ul li span {
     margin: 0;
-    font-size: 3.88vw !important;
+    font-size: 2.92vw !important;
     line-height: 1.4 !important;
   }
 
-  .guidebox .guide-list ul li p span {
+  .guidebox .guide-list ul li span span {
     margin: 0;
-    font-size: 3.88vw !important;
+    font-size: 2.92vw !important;
     line-height: 1.4 !important;
   }
 
   footer {
     max-width: 100vw !important;
-    padding: 8.88vw 3.33vw !important;
-    font-size: 3.88vw !important;
+    padding: 6.67vw 3.33vw !important;
+    font-size: 2.92vw !important;
   }
 
   footer .footer-item a {
@@ -362,13 +374,148 @@ footer .copyright {
 
   footer .footer-item a::before {
     content: "►";
-    padding-right: 1.66vw !important;
+    padding-right: 1.25vw !important;
   }
 
   footer .footer-item p span,
   footer .footer-item a span,
   footer .footer-item span span {
     margin: 0;
-    font-size: 3.88vw !important;
+    font-size: 2.92vw !important;
+  }
+
+  /* VIEWPOINT-360px */
+  @media (max-width: 360px) {
+    article.article_view>div {
+      width: 100% !important;
+    }
+
+    #message_view_table ul {
+      padding: 4.44vw 0 !important;
+    }
+
+    span.line {
+      margin: 0;
+      margin: 6.66vw 0 !important;
+    }
+
+    span.pc-only {
+      margin: 0;
+      display: none;
+    }
+
+    .container {
+      max-width: 100vw !important;
+      padding: 8.88vw 3.33vw !important;
+    }
+
+    .title .title-text h5 {
+      font-size: 4.44vw !important;
+      line-height: 1.4 !important;
+    }
+
+    .title .title-text h5 span {
+      margin: 0;
+      font-size: 4.44vw !important;
+      line-height: 1.4 !important;
+    }
+
+    .info {
+      padding: 3.33vw !important;
+    }
+
+    .info .info-text {
+      margin-bottom: 3.33vw !important;
+    }
+
+    .info .info-text span {
+      margin: 0;
+      font-size: 3.88vw !important;
+      line-height: 1.4 !important;
+    }
+
+    .info .info-text br {
+      display: none !important;
+    }
+
+    .certificate {
+      width: 100% !important;
+      background: unset !important;
+      padding: 4.44vw 0 !important;
+    }
+
+    .certificate .certificate-image {
+      display: block !important;
+      width: 80vw !important;
+      height: 113.05vw !important;
+      background: #fff !important;
+    }
+
+    .button-group button {
+      font-size: 3.88vw !important;
+      line-height: 1.4 !important;
+    }
+
+    .button-group button span {
+      margin: 0;
+      font-size: 3.88vw !important;
+      line-height: 1.4 !important;
+    }
+
+    .guidebox {
+      margin-bottom: 6.66vw !important;
+    }
+
+    .guidebox h6 {
+      font-size: 4.44vw !important;
+    }
+
+    .guidebox .guide-list ul li {
+      list-style: none !important;
+      margin-bottom: 3.33vw !important;
+      text-indent: -7.77vw !important;
+    }
+
+    .guidebox .guide-list ul li::before {
+      margin-right: 1.66vw !important;
+      width: 4.44vw !important;
+      height: 4.44vw !important;
+      font-size: 3.33vw !important;
+    }
+
+    .guidebox .guide-list ul li span {
+      margin: 0;
+      font-size: 3.88vw !important;
+      line-height: 1.4 !important;
+    }
+
+    .guidebox .guide-list ul li p span {
+      margin: 0;
+      font-size: 3.88vw !important;
+      line-height: 1.4 !important;
+    }
+
+    footer {
+      max-width: 100vw !important;
+      padding: 8.88vw 3.33vw !important;
+      font-size: 3.88vw !important;
+    }
+
+    footer .footer-item a {
+      display: block;
+      margin-bottom: 2.2vw !important;
+    }
+
+    footer .footer-item a::before {
+      content: "►";
+      padding-right: 1.66vw !important;
+    }
+
+    footer .footer-item p span,
+    footer .footer-item a span,
+    footer .footer-item span span {
+      margin: 0;
+      font-size: 3.88vw !important;
+    }
   }
 }

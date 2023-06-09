@@ -336,6 +336,7 @@ footer .copyright {
   }
 
   .guidebox .guide-list ul li {
+    line-height: 1.2 !important;
     list-style: none !important;
     margin-bottom: 3.33vw !important;
     text-indent: -5.83vw !important;
@@ -470,6 +471,7 @@ footer .copyright {
     }
 
     .guidebox .guide-list ul li {
+      line-height: 1.2 !important;
       list-style: none !important;
       margin-bottom: 3.33vw !important;
       text-indent: -7.77vw !important;

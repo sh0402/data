@@ -132,7 +132,8 @@ button.btn-secondary {
   color: #444 !important;
 }
 
-.certificate {
+.certificate,
+.account-info {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -150,13 +151,58 @@ button.btn-secondary {
   background: #fff !important;
 }
 
+.account-table {
+  display: block !important;
+  background: #fff !important;
+}
+
+.account-info .account-table {
+  text-align: center;
+  padding: 1rem !important;
+}
+
+.account-info .account-table table {
+  display: table !important;
+  width: 28rem !important;
+}
+
+.account-info .account-table table tr:last-child {
+  margin-bottom: 0 !important;
+}
+
+.account-info .account-table table th {
+  text-align: left !important;
+  font-size: 1rem;
+  font-weight: normal !important;
+  color: #777 !important;
+  line-height: 1.8 !important;
+}
+
+.account-info .account-table table td {
+  text-align: right !important;
+  font-size: 1rem;
+  font-weight: bold !important;
+  color: #444 !important;
+  line-height: 1.8 !important;
+}
+
+.account-info .account-table span.line {
+  margin: 1rem 0 !important;
+}
+
+.account-info .account-table span.table-title {
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  padding: 1rem 0 !important;
+}
+
 .guidebox {
   margin-bottom: 2rem !important;
 }
 
 .guidebox h6 {
   color: #232527 !important;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .guidebox .guide-list {}
@@ -307,7 +353,8 @@ footer .copyright {
     display: none !important;
   }
 
-  .certificate {
+  .certificate,
+  .account-info {
     width: 100% !important;
     background: unset !important;
     padding: 3.33vw 0 !important;
@@ -320,9 +367,42 @@ footer .copyright {
     background: #E2E2E2 !important;
   }
 
+  .account-table {
+    width: calc(100% - 5vw) !important;
+    border: 1px solid #E2E2E2 !important;
+  }
+
+  .account-info .account-table table {
+    width: 100% !important;
+  }
+
+  .account-info .account-table table th,
+  .account-info .account-table table td {
+    font-size: 3.33vw !important;
+  }
+
+  .account-info .account-table span.line {
+    margin: 3.33vw 0 !important;
+  }
+
+  .account-info .account-table span.table-title {
+    font-size: 3.33vw !important;
+    padding: 3.33vw 0 !important;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
   .button-group button {
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
+    margin-right: 0 !important;
+    margin-bottom: 3.33vw !important;
+  }
+
+  .button-group button:last-child {
+    margin-bottom: 0 !important;
   }
 
   .button-group button span {
@@ -394,9 +474,11 @@ footer .copyright {
     article.article_view>div {
       width: 100% !important;
     }
+
     #message_view_table {
       height: 100vh !important;
     }
+
     #message_view_table ul {
       padding: 4.44vw 0 !important;
     }
@@ -445,10 +527,11 @@ footer .copyright {
       display: none !important;
     }
 
-    .certificate {
+    .certificate,
+    .account-info {
       width: 100% !important;
       background: unset !important;
-      padding: 4.44vw 0 !important;
+      padding: 0 !important;
     }
 
     .certificate .certificate-image {
@@ -458,9 +541,28 @@ footer .copyright {
       background: #fff !important;
     }
 
+    .account-table {
+      width: 100% !important;
+    }
+
+    .account-info .account-table table th,
+    .account-info .account-table table td {
+      font-size: 3.33vw !important;
+    }
+
+    .button-group {
+      flex-direction: column;
+    }
+
     .button-group button {
       font-size: 3.88vw !important;
       line-height: 1.4 !important;
+      margin-right: 0 !important;
+      margin-bottom: 3.33vw !important;
+    }
+
+    .button-group button:last-child {
+      margin-bottom: 0 !important;
     }
 
     .button-group button span {

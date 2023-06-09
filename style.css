@@ -262,10 +262,12 @@ footer .copyright {
 
   .title .title-text h5 {
     font-size: 4.44vw !important;
+    line-height: 1.4 !important;
   }
 
   .title .title-text h5 span {
     font-size: 4.44vw !important;
+    line-height: 1.4 !important;
   }
 
   .info {

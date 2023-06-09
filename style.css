@@ -28,7 +28,7 @@ a {
   text-decoration: unset !important;
 }
 
-p {
+span {
   margin: 0 !important;
 }
 
@@ -63,7 +63,7 @@ span.line {
   text-align: center !important;
 }
 
-.logo p {
+.logo span {
   font-size: 1.25rem !important;
   font-weight: 900 !important;
   background: #F5F5F5 !important;
@@ -194,7 +194,7 @@ button.btn-secondary {
   margin-bottom: 0 !important;
 }
 
-.guidebox .guide-list ul li p {
+.guidebox .guide-list ul li span {
   display: inline !important;
   margin-bottom: 0.75rem !important;
   line-height: 1.8 !important;
@@ -319,7 +319,7 @@ footer .copyright {
     font-size: 3.33vw !important;
   }
 
-  .guidebox .guide-list ul li p {
+  .guidebox .guide-list ul li span {
     font-size: 3.88vw !important;
     line-height: 1.4 !important;
   }

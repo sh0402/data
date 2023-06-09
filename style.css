@@ -300,10 +300,12 @@ footer .copyright {
 
   .button-group button {
     font-size: 3.88vw !important;
+    line-height: 1.4 !important;
   }
 
   .button-group button span {
     font-size: 3.88vw !important;
+    line-height: 1.4 !important;
   }
 
   .guidebox {

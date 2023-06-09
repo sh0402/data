@@ -151,31 +151,31 @@ button.btn-secondary {
   background: #fff !important;
 }
 
-.guide {
+.guidebox {
   margin-bottom: 2rem !important;
 }
 
-.guide h6 {
+.guidebox h6 {
   color: #232527 !important;
   text-decoration: underline
 }
 
-.guide .guide-list {}
+.guidebox .guide-list {}
 
-.guide .guide-list ul {
+.guidebox .guide-list ul {
   list-style: none !important;
   counter-reset: steps !important;
   padding-inline-start: 2rem !important;
 }
 
-.guide .guide-list ul li {
+.guidebox .guide-list ul li {
   margin-bottom: 1rem !important;
   counter-increment: steps !important;
   list-style-position: inside !important;
   text-indent: -2.125rem !important;
 }
 
-.guide .guide-list ul li::before {
+.guidebox .guide-list ul li::before {
   content: counter(steps) !important;
   margin-right: 0.5rem !important;
   display: inline-grid !important;
@@ -190,17 +190,17 @@ button.btn-secondary {
   text-indent: 0rem !important;
 }
 
-.guide .guide-list ul li:last-child {
+.guidebox .guide-list ul li:last-child {
   margin-bottom: 0 !important;
 }
 
-.guide .guide-list ul li p {
+.guidebox .guide-list ul li p {
   display: inline !important;
   margin-bottom: 0.75rem !important;
   line-height: 1.8 !important;
 }
 
-.guide .guide-list ul li p:last-child {
+.guidebox .guide-list ul li p:last-child {
   margin-bottom: 0 !important;
 }
 
@@ -298,33 +298,33 @@ footer .copyright {
     font-size: 3.88vw !important;
   }
 
-  .guide {
+  .guidebox {
     margin-bottom: 6.66vw !important;
   }
 
-  .guide h6 {
+  .guidebox h6 {
     font-size: 4.44vw !important;
   }
 
-  .guide .guide-list ul li {
+  .guidebox .guide-list ul li {
     list-style: none !important;
     margin-bottom: 3.33vw !important;
     text-indent: -7.77vw !important;
   }
 
-  .guide .guide-list ul li::before {
+  .guidebox .guide-list ul li::before {
     margin-right: 1.66vw !important;
     width: 4.44vw !important;
     height: 4.44vw !important;
     font-size: 3.33vw !important;
   }
 
-  .guide .guide-list ul li p {
+  .guidebox .guide-list ul li p {
     font-size: 3.88vw !important;
     line-height: 1.4 !important;
   }
 
-  .guide .guide-list ul li p span {
+  .guidebox .guide-list ul li p span {
     font-size: 3.88vw !important;
     line-height: 1.4 !important;
   }
@@ -334,6 +334,21 @@ footer .copyright {
     padding: 8.88vw 3.33vw !important;
     font-size: 3.88vw !important;
   }
+
+  footer .footer-item a {
+    display: block;
+    margin-bottom: 2.2vw !important;
+  }
+
+  footer .footer-item a::before {
+    content: "►";
+    padding-right: 1.66vw !important;
+  }
+
+  footer .footer-item > span {
+    display: none;
+  }
+
   footer .footer-item p span,
   footer .footer-item a span {
     font-size: 3.88vw !important;

@@ -239,6 +239,10 @@ footer .copyright {
 }
 
 @media (max-width: 360px) {
+  article.article_view > div {
+    width: 100% !important;
+  }
+  
   .container {
     max-width: 100vw !important;
   }

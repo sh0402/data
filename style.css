@@ -237,3 +237,9 @@ footer .footer-item span {
 footer .copyright {
   opacity: 0.6 !important;
 }
+
+@media (max-width: 360px) {
+  .info .info-text p {
+    font-size: 2.77vw !important;
+  }
+}

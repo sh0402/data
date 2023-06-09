@@ -256,6 +256,10 @@ footer .copyright {
     font-size: 4.44vw !important;
   }
 
+  .title .title-text h5 span {
+    font-size: 4.44vw !important;
+  }
+
   .info {
     padding: 3.33vw !important;
   }
@@ -266,6 +270,7 @@ footer .copyright {
 
   .info .info-text span {
     font-size: 3.88vw !important;
+    line-height: 1.4 !important;
   }
 
   .info .info-text br {
@@ -274,7 +279,7 @@ footer .copyright {
 
   .certificate {
     width: 100% !important;
-    background: #E2E2E2 !important;
+    background: unset !important;
     padding: 4.44vw 0 !important;
   }
 
@@ -289,6 +294,10 @@ footer .copyright {
     font-size: 3.88vw !important;
   }
 
+  .button-group button span {
+    font-size: 3.88vw !important;
+  }
+
   .guide {
     margin-bottom: 6.66vw !important;
   }
@@ -298,6 +307,7 @@ footer .copyright {
   }
 
   .guide .guide-list ul li {
+    list-style: none !important;
     margin-bottom: 3.33vw !important;
     text-indent: -7.77vw !important;
   }
@@ -306,7 +316,7 @@ footer .copyright {
     margin-right: 1.66vw !important;
     width: 4.44vw !important;
     height: 4.44vw !important;
-    font-size: 3.88vw !important;
+    font-size: 3.33vw !important;
   }
 
   .guide .guide-list ul li p {
@@ -314,9 +324,18 @@ footer .copyright {
     line-height: 1.4 !important;
   }
 
+  .guide .guide-list ul li p span {
+    font-size: 3.88vw !important;
+    line-height: 1.4 !important;
+  }
+
   footer {
     max-width: 100vw !important;
     padding: 8.88vw 3.33vw !important;
+    font-size: 3.88vw !important;
+  }
+  footer .footer-item p span,
+  footer .footer-item a span {
     font-size: 3.88vw !important;
   }
 }

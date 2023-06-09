@@ -37,7 +37,7 @@ button {
 }
 
 span.line {
-  margin: 0;
+  margin: 0 !important;
   display: block !important;
   width: 100% !important;
   height: 1px !important;
@@ -61,7 +61,7 @@ span.line {
 }
 
 .logo span {
-  margin: 0;
+  margin: 0 !important;
   font-size: 1.25rem !important;
   font-weight: 900 !important;
   background: #F5F5F5 !important;
@@ -127,7 +127,7 @@ button.btn-secondary {
 }
 
 .info .info-text span {
-  margin: 0;
+  margin: 0 !important;
   font-size: 1rem !important;
   color: #444 !important;
 }
@@ -156,7 +156,7 @@ button.btn-secondary {
 
 .guidebox h6 {
   color: #232527 !important;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .guidebox .guide-list {}
@@ -194,7 +194,7 @@ button.btn-secondary {
 }
 
 .guidebox .guide-list ul li span {
-  margin: 0;
+  margin: 0 !important;
   display: inline !important;
   margin-bottom: 0.75rem !important;
   line-height: 1.8 !important;
@@ -231,7 +231,7 @@ footer .footer-item a:last-child {
 }
 
 footer .footer-item span {
-  margin: 0;
+  margin: 0 !important;
   margin-right: 0.5rem !important;
 }
 
@@ -246,21 +246,21 @@ footer .copyright {
   }
 
   #message_view_table ul {
-    padding: 2.50vw 0 !important;
+    padding: 3.33vw 0 !important;
   }
 
   #message_view_table ul li {
-    list-style: none;
+    list-style: none !important;
   }
 
   span.line {
-    margin: 0;
+    margin: 0 !important;
     margin: 5.00vw 0 !important;
   }
 
   span.pc-only {
-    margin: 0;
-    display: none;
+    margin: 0 !important;
+    display: none !important;
   }
 
   .container {
@@ -274,28 +274,28 @@ footer .copyright {
   }
 
   .title .title-text h5 span {
-    margin: 0;
+    margin: 0 !important;
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
   .info {
-    padding: 2.50vw !important;
+    padding: 3.33vw !important;
   }
 
   .info .info-text {
-    margin-bottom: 2.50vw !important;
+    margin-bottom: 3.33vw !important;
   }
 
   .info .info-text span {
-    margin: 0;
-    font-size: 2.92vw !important;
+    margin: 0 !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
   .info .info-text span span {
-    margin: 0;
-    font-size: 2.92vw !important;
+    margin: 0 !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
@@ -306,25 +306,24 @@ footer .copyright {
   .certificate {
     width: 100% !important;
     background: unset !important;
-    padding: 2.50vw 0 !important;
-    background: #E2E2E2 !important;
+    padding: 3.33vw 0 !important;
   }
 
   .certificate .certificate-image {
     display: block !important;
-    width: 80vw !important;
+    width: calc(100% - 5vw) !important;
     height: 113.05vw !important;
-    background: #fff !important;
+    background: #E2E2E2 !important;
   }
 
   .button-group button {
-    font-size: 2.92vw !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
   .button-group button span {
-    margin: 0;
-    font-size: 2.92vw !important;
+    margin: 0 !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
@@ -333,31 +332,31 @@ footer .copyright {
   }
 
   .guidebox h6 {
-    font-size: 2.50vw !important;
+    font-size: 3.33vw !important;
   }
 
   .guidebox .guide-list ul li {
     list-style: none !important;
-    margin-bottom: 2.50vw !important;
-    text-indent: -5.0vw !important;
+    margin-bottom: 3.33vw !important;
+    text-indent: -5.83vw !important;
   }
 
   .guidebox .guide-list ul li::before {
     margin-right: 1.25vw !important;
-    width: 2.50vw !important;
-    height: 2.50vw !important;
-    font-size: 2.50vw !important;
+    width: 3.33vw !important;
+    height: 3.33vw !important;
+    font-size: 3.33vw !important;
   }
 
   .guidebox .guide-list ul li span {
-    margin: 0;
-    font-size: 2.92vw !important;
+    margin: 0 !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
   .guidebox .guide-list ul li span span {
-    margin: 0;
-    font-size: 2.92vw !important;
+    margin: 0 !important;
+    font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
@@ -380,7 +379,7 @@ footer .copyright {
   footer .footer-item p span,
   footer .footer-item a span,
   footer .footer-item span span {
-    margin: 0;
+    margin: 0 !important;
     font-size: 2.92vw !important;
   }
 
@@ -395,12 +394,12 @@ footer .copyright {
     }
 
     span.line {
-      margin: 0;
+      margin: 0 !important;
       margin: 6.66vw 0 !important;
     }
 
     span.pc-only {
-      margin: 0;
+      margin: 0 !important;
       display: none;
     }
 
@@ -415,7 +414,7 @@ footer .copyright {
     }
 
     .title .title-text h5 span {
-      margin: 0;
+      margin: 0 !important;
       font-size: 4.44vw !important;
       line-height: 1.4 !important;
     }
@@ -429,7 +428,7 @@ footer .copyright {
     }
 
     .info .info-text span {
-      margin: 0;
+      margin: 0 !important;
       font-size: 3.88vw !important;
       line-height: 1.4 !important;
     }
@@ -457,7 +456,7 @@ footer .copyright {
     }
 
     .button-group button span {
-      margin: 0;
+      margin: 0 !important;
       font-size: 3.88vw !important;
       line-height: 1.4 !important;
     }
@@ -484,13 +483,13 @@ footer .copyright {
     }
 
     .guidebox .guide-list ul li span {
-      margin: 0;
+      margin: 0 !important;
       font-size: 3.88vw !important;
       line-height: 1.4 !important;
     }
 
     .guidebox .guide-list ul li p span {
-      margin: 0;
+      margin: 0 !important;
       font-size: 3.88vw !important;
       line-height: 1.4 !important;
     }
@@ -514,7 +513,7 @@ footer .copyright {
     footer .footer-item p span,
     footer .footer-item a span,
     footer .footer-item span span {
-      margin: 0;
+      margin: 0 !important;
       font-size: 3.88vw !important;
     }
   }

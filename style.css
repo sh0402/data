@@ -242,9 +242,17 @@ footer .copyright {
   article.article_view>div {
     width: 100% !important;
   }
+  
+  #message_view_table ul {
+    padding: 4.44vw 0 !important;
+  }
 
   span.line {
     margin: 6.66vw 0 !important;
+  }
+
+  span.pc-only {
+    display: none;
   }
 
   .container {
@@ -343,10 +351,6 @@ footer .copyright {
   footer .footer-item a::before {
     content: "►";
     padding-right: 1.66vw !important;
-  }
-
-  footer .footer-item > span {
-    display: none;
   }
 
   footer .footer-item p span,

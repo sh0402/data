@@ -381,11 +381,21 @@ footer .copyright {
     font-size: 3.33vw !important;
   }
 
+  .account-info .account-table table th span,
+  .account-info .account-table table td span {
+    font-size: 3.33vw !important;
+  }
+
   .account-info .account-table span.line {
     margin: 3.33vw 0 !important;
   }
 
   .account-info .account-table span.table-title {
+    font-size: 3.33vw !important;
+    padding: 3.33vw 0 !important;
+  }
+
+  .account-info .account-table span.table-title span {
     font-size: 3.33vw !important;
     padding: 3.33vw 0 !important;
   }
@@ -550,12 +560,31 @@ footer .copyright {
       font-size: 3.33vw !important;
     }
 
+    .account-info .account-table table th span,
+    .account-info .account-table table td span {
+      font-size: 3.33vw !important;
+    }
+
+    .account-info .account-table span.line {
+      margin: 3.33vw 0 !important;
+    }
+  
+    .account-info .account-table span.table-title {
+      font-size: 3.88vw !important;
+      padding: 3.33vw 0 !important;
+    }
+  
+    .account-info .account-table span.table-title span {
+      font-size: 3.88vw !important;
+      padding: 3.33vw 0 !important;
+    }
+
     .button-group {
       flex-direction: column;
     }
 
     .button-group button {
-      font-size: 3.88vw !important;
+      font-size: 3.33vw !important;
       line-height: 1.4 !important;
       margin-right: 0 !important;
       margin-bottom: 3.33vw !important;
@@ -567,7 +596,7 @@ footer .copyright {
 
     .button-group button span {
       margin: 0 !important;
-      font-size: 3.88vw !important;
+      font-size: 3.33vw !important;
       line-height: 1.4 !important;
     }
 

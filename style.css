@@ -354,7 +354,8 @@ footer .copyright {
   }
 
   footer .footer-item p span,
-  footer .footer-item a span {
+  footer .footer-item a span,
+  footer .footer-item span span {
     font-size: 3.88vw !important;
   }
 }

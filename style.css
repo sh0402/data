@@ -563,13 +563,13 @@ footer.email-footer .copyright {
   .email-container .info .info-text span {
     margin: 0 !important;
     font-size: 3.33vw !important;
-    line-height: 1.4 !important;
+    line-height: 1.2 !important;
   }
 
   .email-container .info .info-text span span {
     margin: 0 !important;
     font-size: 3.33vw !important;
-    line-height: 1.4 !important;
+    line-height: 1.2 !important;
   }
 
   .email-container .info .info-text br {
@@ -862,11 +862,13 @@ footer.email-footer .copyright {
 
   .email-container .change-info .change-text span.content {
     font-size: 3.88vw !important;
+    line-height: 1.2;
     margin-bottom: 3.33vw !important;
   }
 
   .email-container .change-info .change-text span.content span {
     font-size: 3.88vw !important;
+    line-height: 1.2;
   }
 
   .email-container .change-info .change-text span.underline {

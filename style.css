@@ -13,30 +13,12 @@ body {
   -moz-osx-font-smoothing: grayscale !important;
 }
 
-h5 {
-  font-size: 1.25rem !important;
-  margin: 0 !important;
-}
-
-h6 {
-  font-size: 1.125rem !important;
-  margin: 0 !important;
-}
-
 a {
   color: unset !important;
   text-decoration: unset !important;
 }
 
-button {
-  cursor: pointer !important;
-  border: unset !important;
-  font-size: 1rem !important;
-  font-weight: bold !important;
-  color: #444 !important;
-}
-
-span.line {
+.email-container span.line {
   margin: 0 !important;
   display: block !important;
   width: 100% !important;
@@ -45,14 +27,14 @@ span.line {
   margin: 3rem 0 !important;
 }
 
-.container {
+.email-container {
   max-width: 48rem !important;
   margin: 0 auto !important;
   padding: 3rem 1.5rem !important;
   border: 1px solid #eee !important;
 }
 
-.logo {
+.email-container .logo {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -60,7 +42,7 @@ span.line {
   text-align: center !important;
 }
 
-.logo span {
+.email-container .logo span {
   margin: 0 !important;
   font-size: 1.25rem !important;
   font-weight: 900 !important;
@@ -68,72 +50,84 @@ span.line {
   padding: 0.5rem 1rem !important;
 }
 
-.button-group {
+.email-container .button-group {
   display: flex !important;
 }
 
-button {
+.email-container .button-group.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.email-container button.btn-email {
+  cursor: pointer !important;
+  border: unset !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  color: #444 !important;
   padding: 0.75rem 1rem !important;
   flex: 1 1 !important;
   margin-right: 1rem !important;
   border-radius: 0.5rem !important;
 }
 
-button:last-child {
+.email-container button:last-child {
   margin-right: 0 !important;
 }
 
-button.btn-primary {
+.email-container button.btn-email.btn-primary {
   background: #05376C !important;
   color: #fff !important;
 }
 
-button.btn-secondary {
+.email-container button.btn-email.btn-secondary {
   background: #F5F5F5 !important;
   color: #232527 !important;
   border: 1px solid #E2E2E2 !important;
 }
 
-.title {
+.email-container .title {
   text-align: center !important;
 }
 
-.title .title-text {
+.email-container .title .title-text {
   margin-bottom: 1.5rem !important;
 }
 
-.title .title-text h5 {
+.email-container .title .title-text h5 {
+  font-size: 1.25rem !important;
+  margin: 0 !important;
   color: #05376C !important;
 }
 
-.title .title-text h5:last-child {
+.email-container .title .title-text h5:last-child {
   color: #232527 !important;
   font-weight: normal !important;
 }
 
-.info {
+.email-container .info {
   background: #DCE7F8 !important;
   padding: 1.5rem !important;
   border-radius: 0.5rem !important;
   margin-bottom: 1.5rem !important;
 }
 
-.info .info-text {
+.email-container .info .info-text {
   margin-bottom: 1.5rem !important;
 }
 
-.info .info-text:last-child {
+.email-container .info .info-text:last-child {
   margin-bottom: 0 !important;
 }
 
-.info .info-text span {
+.email-container .info .info-text span {
   margin: 0 !important;
   font-size: 1rem !important;
   color: #444 !important;
+  line-height: 1.4;
 }
 
-.certificate,
-.account-info {
+.email-container .certificate,
+.email-container .account-info {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -144,33 +138,33 @@ button.btn-secondary {
   padding: 2rem 0 !important;
 }
 
-.certificate .certificate-image {
+.email-container .certificate .certificate-image {
   display: block !important;
   width: 21.5rem !important;
   height: 30.5rem !important;
   background: #fff !important;
 }
 
-.account-table {
+.email-container .account-table {
   display: block !important;
   background: #fff !important;
 }
 
-.account-info .account-table {
+.email-container .account-info .account-table {
   text-align: center;
   padding: 1rem !important;
 }
 
-.account-info .account-table table {
+.email-container .account-info .account-table table {
   display: table !important;
   width: 28rem !important;
 }
 
-.account-info .account-table table tr:last-child {
+.email-container .account-info .account-table table tr:last-child {
   margin-bottom: 0 !important;
 }
 
-.account-info .account-table table th {
+.email-container .account-info .account-table table th {
   text-align: left !important;
   font-size: 1rem;
   font-weight: normal !important;
@@ -178,7 +172,7 @@ button.btn-secondary {
   line-height: 1.8 !important;
 }
 
-.account-info .account-table table td {
+.email-container .account-info .account-table table td {
   text-align: right !important;
   font-size: 1rem;
   font-weight: bold !important;
@@ -186,41 +180,66 @@ button.btn-secondary {
   line-height: 1.8 !important;
 }
 
-.account-info .account-table span.line {
+.email-container .account-info .account-table span.line {
   margin: 1rem 0 !important;
 }
 
-.account-info .account-table span.table-title {
+.email-container .account-info .account-table span.table-title {
   font-size: 1rem !important;
   font-weight: bold !important;
   padding: 1rem 0 !important;
 }
 
-.guidebox {
+.email-container .change-info {
+  margin-bottom: 2rem !important;
+  padding: 1.5rem !important;
+  border: 1px solid #E2E2E2 !important;
+}
+
+.email-container .change-info .change-text {
   margin-bottom: 2rem !important;
 }
 
-.guidebox h6 {
+.email-container .change-info .change-text:last-child {
+  margin-bottom: 0 !important;
+}
+
+.email-container .change-info .change-text span {
+  display: block !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.4;
+}
+
+.email-container .change-info .change-text span:last-child {
+  margin-bottom: 0 !important;
+  text-decoration: underline !important;
+}
+
+.email-container .guidebox {
+  margin-bottom: 2rem !important;
+}
+
+.email-container .guidebox h6 {
+  font-size: 1.125rem !important;
+  margin: 0 !important;
   color: #232527 !important;
   text-decoration: underline !important;
 }
 
-.guidebox .guide-list {}
-
-.guidebox .guide-list ul {
+.email-container .guidebox .guide-list ul {
   list-style: none !important;
   counter-reset: steps !important;
   padding-inline-start: 2rem !important;
 }
 
-.guidebox .guide-list ul li {
+.email-container .guidebox .guide-list ul li {
   margin-bottom: 1rem !important;
   counter-increment: steps !important;
   list-style-position: inside !important;
   text-indent: -2.125rem !important;
 }
 
-.guidebox .guide-list ul li::before {
+.email-container .guidebox .guide-list ul li::before {
   content: counter(steps) !important;
   margin-right: 0.5rem !important;
   display: inline-grid !important;
@@ -235,22 +254,22 @@ button.btn-secondary {
   text-indent: 0rem !important;
 }
 
-.guidebox .guide-list ul li:last-child {
+.email-container .guidebox .guide-list ul li:last-child {
   margin-bottom: 0 !important;
 }
 
-.guidebox .guide-list ul li span {
+.email-container .guidebox .guide-list ul li span {
   margin: 0 !important;
   display: inline !important;
   margin-bottom: 0.75rem !important;
   line-height: 1.8 !important;
 }
 
-.guidebox .guide-list ul li p:last-child {
+.email-container .guidebox .guide-list ul li p:last-child {
   margin-bottom: 0 !important;
 }
 
-footer {
+footer.email-footer {
   max-width: 48rem !important;
   margin: 0 auto !important;
   font-size: 0.875rem !important;
@@ -259,30 +278,222 @@ footer {
   background: #777777 !important;
 }
 
-footer .footer-item {
+footer.email-footer .footer-item {
   margin-bottom: 1rem !important;
 }
 
-footer .footer-item:last-child {
+footer.email-footer .footer-item:last-child {
   margin-bottom: 0 !important;
 }
 
-footer .footer-item a {
+footer.email-footer .footer-item a {
   font-weight: bold !important;
   margin-right: 0.5rem !important;
 }
 
-footer .footer-item a:last-child {
+footer.email-footer .footer-item a:last-child {
   margin-right: 0 !important;
 }
 
-footer .footer-item span {
+footer.email-footer .footer-item span {
   margin: 0 !important;
   margin-right: 0.5rem !important;
 }
 
-footer .copyright {
+footer.email-footer .copyright {
   opacity: 0.6 !important;
+}
+
+/* VIEWPOINT-768px */
+@media (max-width: 768px) {
+  article.article_view>div {
+    width: 100% !important;
+  }
+
+  #message_view_table {
+    height: 100vh !important;
+  }
+  
+  #message_view_table ul {
+    padding: 2.08vw 0 !important;
+  }
+
+  #message_view_table ul li {
+    list-style: none !important;
+  }
+
+  .email-container span.line {
+    margin: 4.17vw 0 !important;
+  }
+
+  .email-container {
+    padding: 6.25vw 3.13vw !important;
+  }
+
+  .email-container .title .title-text h5 {
+    font-size: 2.60vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .title .title-text h5 span {
+    margin: 0 !important;
+    font-size: 2.60vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .info {
+    padding: 3.13vw !important;
+  }
+
+  .email-container .info .info-text span {
+    margin: 0 !important;
+    font-size: 2.08vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .info .info-text span span {
+    margin: 0 !important;
+    font-size: 2.08vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .certificate,
+  .email-container .account-info {
+    width: calc(100% - (3.13vw * 2)) !important;
+    padding: 3.13vw !important;
+  }
+
+  .email-container .account-table {
+    width: calc(100% - 5vw) !important;
+    border: 1px solid #E2E2E2 !important;
+  }
+
+  .email-container .account-info .account-table table {
+    width: 100% !important;
+  }
+
+  .email-container .account-info .account-table table th,
+  .email-container .account-info .account-table table td {
+    font-size: 2.08vw !important;
+  }
+
+  .email-container .account-info .account-table table th span,
+  .email-container .account-info .account-table table td span {
+    font-size: 2.08vw !important;
+  }
+
+  .email-container .account-info .account-table span.line {
+    margin: 3.13vw 0 !important;
+  }
+
+  .email-container .account-info .account-table span.table-title {
+    font-size: 2.60vw !important;
+    padding: 3.13vw 0 !important;
+  }
+
+  .email-container .account-info .account-table span.table-title span {
+    font-size: 2.60vw !important;
+    padding: 3.13vw 0 !important;
+  }
+
+  .email-container .button-group {
+    flex-direction: column !important;
+  }
+
+  .email-container .button-group button {
+    font-size: 2.08vw !important;
+    line-height: 1.4 !important;
+    margin-right: 0 !important;
+    margin-bottom: 3.13vw !important;
+  }
+
+  .email-container .button-group button:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .email-container .button-group button span {
+    margin: 0 !important;
+    font-size: 2.08vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .change-info {
+    padding: 3.13vw !important;
+  }
+
+  .email-container .change-info .change-text {
+    margin-bottom: 4.17vw !important;
+  }
+  
+  .email-container .change-info .change-text span {
+    font-size: 2.08vw !important;
+    word-break: keep-all !important;
+    line-height: 1.4 !important;
+    margin-bottom: 3.13vw !important;
+  }
+
+  .email-container .change-info .change-text span span {
+    font-size: 2.08vw !important;
+  }
+
+  .email-container .guidebox {
+    margin-bottom: 4.17vw !important;
+  }
+
+  .email-container .guidebox h6 {
+    font-size: 2.34vw !important;
+  }
+  .email-container .guidebox .guide-list ul {
+    padding-inline-start: 5.21vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li {
+    line-height: 1.2 !important;
+    list-style: none !important;
+    margin-bottom: 2.08vw !important;
+    text-indent: -5.21vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li::before {
+    line-height: 1.4 !important;
+    margin-right: 1.04vw !important;
+    width: 3.13vw !important;
+    height: 3.13vw !important;
+    font-size: 2.08vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li span {
+    margin: 0 !important;
+    font-size: 2.08vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .guidebox .guide-list ul li span span {
+    margin: 0 !important;
+    font-size: 2.08vw !important;
+    line-height: 1.4 !important;
+  }
+
+  footer.email-footer {
+    max-width: 100vw !important;
+    padding: 6.25vw 3.13vw !important;
+    font-size: 2.08vw !important;
+  }
+
+  footer.email-footer .footer-item a {
+    margin-bottom: 2.08vw !important;
+  }
+
+  footer.email-footer .footer-item a::before {
+    padding-right: 1.04vw !important;
+  }
+
+  footer.email-footer .footer-item p span,
+  footer.email-footer .footer-item a span,
+  footer.email-footer .footer-item span span {
+    margin: 0 !important;
+    font-size: 2.08vw !important;
+  }
 }
 
 /* VIEWPOINT-480px */
@@ -303,76 +514,275 @@ footer .copyright {
     list-style: none !important;
   }
 
-  span.line {
+  .email-container span.line {
     margin: 0 !important;
     margin: 5.00vw 0 !important;
   }
 
-  span.pc-only {
+  .email-container span.pc-only {
     margin: 0 !important;
     display: none !important;
   }
 
-  .container {
+  .email-container {
     max-width: 100vw !important;
     padding: 6.67vw 3.33vw !important;
   }
 
-  .title .title-text h5 {
+  .email-container .title .title-text h5 {
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
-  .title .title-text h5 span {
+  .email-container .title .title-text h5 span {
     margin: 0 !important;
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
-  .info {
+  .email-container .info {
     padding: 3.33vw !important;
   }
 
-  .info .info-text {
+  .email-container .info .info-text {
     margin-bottom: 3.33vw !important;
   }
 
-  .info .info-text span {
+  .email-container .info .info-text span {
     margin: 0 !important;
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
-  .info .info-text span span {
+  .email-container .info .info-text span span {
     margin: 0 !important;
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
-  .info .info-text br {
+  .email-container .info .info-text br {
     display: none !important;
   }
 
-  .certificate,
-  .account-info {
+  .email-container .certificate,
+  .email-container .account-info {
     width: 100% !important;
     background: unset !important;
     padding: 3.33vw 0 !important;
   }
 
-  .certificate .certificate-image {
+  .email-container .certificate .certificate-image {
     display: block !important;
     width: calc(100% - 5vw) !important;
     height: 113.05vw !important;
     background: #E2E2E2 !important;
   }
 
-  .account-table {
+  .email-container .account-table {
     width: calc(100% - 5vw) !important;
     border: 1px solid #E2E2E2 !important;
   }
 
-  .account-info .account-table table {
+  .email-container .account-info .account-table table {
+    width: 100% !important;
+  }
+
+  .email-container .account-info .account-table table th,
+  .email-container .account-info .account-table table td {
+    font-size: 3.33vw !important;
+  }
+
+  .email-container .account-info .account-table table th span,
+  .email-container .account-info .account-table table td span {
+    font-size: 3.33vw !important;
+  }
+
+  .email-container .account-info .account-table span.line {
+    margin: 3.33vw 0 !important;
+  }
+
+  .email-container .account-info .account-table span.table-title {
+    font-size: 3.33vw !important;
+    padding: 3.33vw 0 !important;
+  }
+
+  .email-container .account-info .account-table span.table-title span {
+    font-size: 3.33vw !important;
+    padding: 3.33vw 0 !important;
+  }
+
+  .email-container .button-group {
+    flex-direction: column !important;
+  }
+
+  .email-container .button-group button {
+    font-size: 3.33vw !important;
+    line-height: 1.4 !important;
+    margin-right: 0 !important;
+    margin-bottom: 3.33vw !important;
+  }
+
+  .email-container .button-group button:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .email-container .button-group button span {
+    margin: 0 !important;
+    font-size: 3.33vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .change-info {
+    padding: 3.33vw !important;
+  }
+
+  .email-container .change-info .change-text {
+    margin-bottom: 6.67vw !important;
+  }
+  
+  .email-container .change-info .change-text span {
+    font-size: 3.33vw !important;
+    word-break: keep-all !important;
+    line-height: 1.4 !important;
+    margin-bottom: 3.33vw !important;
+  }
+
+  .email-container .change-info .change-text span {
+    font-size: 3.33vw !important;
+  }
+
+  .email-container .guidebox {
+    margin-bottom: 5.00vw !important;
+  }
+
+  .email-container .guidebox h6 {
+    font-size: 3.33vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li {
+    line-height: 1.2 !important;
+    list-style: none !important;
+    margin-bottom: 3.33vw !important;
+    text-indent: -7.50vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li::before {
+    line-height: 1.4 !important;
+    margin-right: 1.25vw !important;
+    width: 5.00vw !important;
+    height: 5.00vw !important;
+    font-size: 3.33vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li span {
+    margin: 0 !important;
+    font-size: 3.33vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .guidebox .guide-list ul li span span {
+    margin: 0 !important;
+    font-size: 3.33vw !important;
+    line-height: 1.4 !important;
+  }
+
+  footer.email-footer {
+    max-width: 100vw !important;
+    padding: 6.67vw 3.33vw !important;
+    font-size: 2.92vw !important;
+  }
+
+  footer.email-footer .footer-item a {
+    display: block;
+    margin-bottom: 2.2vw !important;
+  }
+
+  footer.email-footer .footer-item a::before {
+    content: "►";
+    padding-right: 1.25vw !important;
+  }
+
+  footer.email-footer .footer-item p span,
+  footer.email-footer .footer-item a span,
+  footer.email-footer .footer-item span span {
+    margin: 0 !important;
+    font-size: 2.92vw !important;
+  }
+
+}
+/* VIEWPOINT-360px */
+@media (max-width: 360px) {
+  article.article_view>div {
+    width: 100% !important;
+  }
+
+  #message_view_table {
+    height: 100vh !important;
+  }
+
+  #message_view_table ul {
+    padding: 4.44vw 0 !important;
+  }
+
+  .email-container span.line {
+    margin: 0 !important;
+    margin: 6.66vw 0 !important;
+  }
+
+  .email-container span.pc-only {
+    margin: 0 !important;
+    display: none;
+  }
+
+  .email-container {
+    max-width: 100vw !important;
+    padding: 8.88vw 3.33vw !important;
+  }
+
+  .email-container .title .title-text h5 {
+    font-size: 4.44vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .title .title-text h5 span {
+    margin: 0 !important;
+    font-size: 4.44vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .info {
+    padding: 3.33vw !important;
+  }
+
+  .email-container .info .info-text {
+    margin-bottom: 3.33vw !important;
+  }
+
+  .email-container .info .info-text span {
+    margin: 0 !important;
+    font-size: 3.88vw !important;
+    line-height: 1.4 !important;
+  }
+
+  .email-container .info .info-text br {
+    display: none !important;
+  }
+
+  .email-container .certificate,
+  .email-container .account-info {
+    width: 100% !important;
+    background: unset !important;
+    padding: 0 !important;
+  }
+
+  .email-container .certificate .certificate-image {
+    display: block !important;
+    width: 80vw !important;
+    height: 113.05vw !important;
+    background: #fff !important;
+  }
+
+  .email-container .account-table {
     width: 100% !important;
   }
 
@@ -381,281 +791,118 @@ footer .copyright {
     font-size: 3.33vw !important;
   }
 
-  .account-info .account-table table th span,
-  .account-info .account-table table td span {
+  .email-container .account-info .account-table table th span,
+  .email-container .account-info .account-table table td span {
     font-size: 3.33vw !important;
   }
 
-  .account-info .account-table span.line {
+  .email-container .account-info .account-table span.line {
     margin: 3.33vw 0 !important;
   }
 
-  .account-info .account-table span.table-title {
-    font-size: 3.33vw !important;
+  .email-container .account-info .account-table span.table-title {
+    font-size: 3.88vw !important;
     padding: 3.33vw 0 !important;
   }
 
-  .account-info .account-table span.table-title span {
-    font-size: 3.33vw !important;
+  .email-container .account-info .account-table span.table-title span {
+    font-size: 3.88vw !important;
     padding: 3.33vw 0 !important;
   }
 
-  .button-group {
-    flex-direction: column;
+  .email-container .button-group {
+    flex-direction: column !important;
   }
 
-  .button-group button {
+  .email-container .button-group button {
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
     margin-right: 0 !important;
     margin-bottom: 3.33vw !important;
   }
 
-  .button-group button:last-child {
+  .email-container .button-group button:last-child {
     margin-bottom: 0 !important;
   }
 
-  .button-group button span {
+  .email-container .button-group button span {
     margin: 0 !important;
     font-size: 3.33vw !important;
     line-height: 1.4 !important;
   }
 
-  .guidebox {
-    margin-bottom: 5.00vw !important;
+  .email-container .change-info {
+    padding: 3.33vw !important;
   }
 
-  .guidebox h6 {
-    font-size: 3.33vw !important;
+  .email-container .change-info .change-text {
+    margin-bottom: 5.56vw !important;
   }
 
-  .guidebox .guide-list ul li {
+  .email-container .change-info .change-text span {
+    font-size: 3.88vw !important;
+    margin-bottom: 3.33vw !important;
+  }
+
+  .email-container .change-info .change-text span {
+    font-size: 3.88vw !important;
+  }
+
+  .email-container .guidebox {
+    margin-bottom: 6.66vw !important;
+  }
+
+  .email-container .guidebox h6 {
+    font-size: 4.44vw !important;
+  }
+
+  .email-container .guidebox .guide-list ul li {
     line-height: 1.2 !important;
     list-style: none !important;
     margin-bottom: 3.33vw !important;
-    text-indent: -7.50vw !important;
+    text-indent: -8.89vw !important;
   }
 
-  .guidebox .guide-list ul li::before {
+  .email-container .guidebox .guide-list ul li::before {
     line-height: 1.4 !important;
-    margin-right: 1.25vw !important;
-    width: 5.00vw !important;
-    height: 5.00vw !important;
+    margin-right: 1.66vw !important;
+    width: 5.56vw !important;
+    height: 5.56vw !important;
     font-size: 3.33vw !important;
   }
 
-  .guidebox .guide-list ul li span {
+  .email-container .guidebox .guide-list ul li span {
     margin: 0 !important;
-    font-size: 3.33vw !important;
+    font-size: 3.88vw !important;
     line-height: 1.4 !important;
   }
 
-  .guidebox .guide-list ul li span span {
+  .email-container .guidebox .guide-list ul li p span {
     margin: 0 !important;
-    font-size: 3.33vw !important;
+    font-size: 3.88vw !important;
     line-height: 1.4 !important;
   }
 
-  footer {
+  footer.email-footer {
     max-width: 100vw !important;
-    padding: 6.67vw 3.33vw !important;
-    font-size: 2.92vw !important;
+    padding: 8.88vw 3.33vw !important;
+    font-size: 3.88vw !important;
   }
 
-  footer .footer-item a {
+  footer.email-footer .footer-item a {
     display: block;
     margin-bottom: 2.2vw !important;
   }
 
-  footer .footer-item a::before {
+  footer.email-footer .footer-item a::before {
     content: "►";
-    padding-right: 1.25vw !important;
+    padding-right: 1.66vw !important;
   }
 
-  footer .footer-item p span,
-  footer .footer-item a span,
-  footer .footer-item span span {
+  footer.email-footer .footer-item p span,
+  footer.email-footer .footer-item a span,
+  footer.email-footer .footer-item span span {
     margin: 0 !important;
-    font-size: 2.92vw !important;
-  }
-
-  /* VIEWPOINT-360px */
-  @media (max-width: 360px) {
-    article.article_view>div {
-      width: 100% !important;
-    }
-
-    #message_view_table {
-      height: 100vh !important;
-    }
-
-    #message_view_table ul {
-      padding: 4.44vw 0 !important;
-    }
-
-    span.line {
-      margin: 0 !important;
-      margin: 6.66vw 0 !important;
-    }
-
-    span.pc-only {
-      margin: 0 !important;
-      display: none;
-    }
-
-    .container {
-      max-width: 100vw !important;
-      padding: 8.88vw 3.33vw !important;
-    }
-
-    .title .title-text h5 {
-      font-size: 4.44vw !important;
-      line-height: 1.4 !important;
-    }
-
-    .title .title-text h5 span {
-      margin: 0 !important;
-      font-size: 4.44vw !important;
-      line-height: 1.4 !important;
-    }
-
-    .info {
-      padding: 3.33vw !important;
-    }
-
-    .info .info-text {
-      margin-bottom: 3.33vw !important;
-    }
-
-    .info .info-text span {
-      margin: 0 !important;
-      font-size: 3.88vw !important;
-      line-height: 1.4 !important;
-    }
-
-    .info .info-text br {
-      display: none !important;
-    }
-
-    .certificate,
-    .account-info {
-      width: 100% !important;
-      background: unset !important;
-      padding: 0 !important;
-    }
-
-    .certificate .certificate-image {
-      display: block !important;
-      width: 80vw !important;
-      height: 113.05vw !important;
-      background: #fff !important;
-    }
-
-    .account-table {
-      width: 100% !important;
-    }
-
-    .account-info .account-table table th,
-    .account-info .account-table table td {
-      font-size: 3.33vw !important;
-    }
-
-    .account-info .account-table table th span,
-    .account-info .account-table table td span {
-      font-size: 3.33vw !important;
-    }
-
-    .account-info .account-table span.line {
-      margin: 3.33vw 0 !important;
-    }
-  
-    .account-info .account-table span.table-title {
-      font-size: 3.88vw !important;
-      padding: 3.33vw 0 !important;
-    }
-  
-    .account-info .account-table span.table-title span {
-      font-size: 3.88vw !important;
-      padding: 3.33vw 0 !important;
-    }
-
-    .button-group {
-      flex-direction: column;
-    }
-
-    .button-group button {
-      font-size: 3.33vw !important;
-      line-height: 1.4 !important;
-      margin-right: 0 !important;
-      margin-bottom: 3.33vw !important;
-    }
-
-    .button-group button:last-child {
-      margin-bottom: 0 !important;
-    }
-
-    .button-group button span {
-      margin: 0 !important;
-      font-size: 3.33vw !important;
-      line-height: 1.4 !important;
-    }
-
-    .guidebox {
-      margin-bottom: 6.66vw !important;
-    }
-
-    .guidebox h6 {
-      font-size: 4.44vw !important;
-    }
-
-    .guidebox .guide-list ul li {
-      line-height: 1.2 !important;
-      list-style: none !important;
-      margin-bottom: 3.33vw !important;
-      text-indent: -8.89vw !important;
-    }
-
-    .guidebox .guide-list ul li::before {
-      line-height: 1.4 !important;
-      margin-right: 1.66vw !important;
-      width: 5.56vw !important;
-      height: 5.56vw !important;
-      font-size: 3.33vw !important;
-    }
-
-    .guidebox .guide-list ul li span {
-      margin: 0 !important;
-      font-size: 3.88vw !important;
-      line-height: 1.4 !important;
-    }
-
-    .guidebox .guide-list ul li p span {
-      margin: 0 !important;
-      font-size: 3.88vw !important;
-      line-height: 1.4 !important;
-    }
-
-    footer {
-      max-width: 100vw !important;
-      padding: 8.88vw 3.33vw !important;
-      font-size: 3.88vw !important;
-    }
-
-    footer .footer-item a {
-      display: block;
-      margin-bottom: 2.2vw !important;
-    }
-
-    footer .footer-item a::before {
-      content: "►";
-      padding-right: 1.66vw !important;
-    }
-
-    footer .footer-item p span,
-    footer .footer-item a span,
-    footer .footer-item span span {
-      margin: 0 !important;
-      font-size: 3.88vw !important;
-    }
+    font-size: 3.88vw !important;
   }
 }

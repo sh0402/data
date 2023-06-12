@@ -55,7 +55,7 @@ a {
 }
 
 .email-container .button-group.mb-2 {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .email-container button.btn-email {
@@ -206,11 +206,19 @@ a {
 
 .email-container .change-info .change-text span {
   display: block !important;
+  font-size: 1rem;
   margin-bottom: 1.5rem !important;
   line-height: 1.4;
 }
 
-.email-container .change-info .change-text span:last-child {
+.email-container .change-info .change-text span span {
+  display: block !important;
+  font-size: 1rem;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.4;
+}
+
+.email-container .change-info .change-text span.underline {
   margin-bottom: 0 !important;
   text-decoration: underline !important;
 }

@@ -204,15 +204,11 @@ a {
   margin-bottom: 0 !important;
 }
 
-.email-container .change-info .change-text span {
+.email-container .change-info .change-text span.content {
   display: block !important;
   font-size: 1rem;
   line-height: 1.4;
-}
 
-.email-container .change-info .change-text span span {
-  display: block !important;
-  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -432,14 +428,10 @@ footer.email-footer .copyright {
     margin-bottom: 4.17vw !important;
   }
 
-  .email-container .change-info .change-text span {
+  .email-container .change-info .change-text span.content {
     font-size: 2.08vw !important;
     word-break: keep-all !important;
     line-height: 1.4 !important;
-  }
-
-  .email-container .change-info .change-text span span {
-    font-size: 2.08vw !important;
   }
 
   .email-container .change-info .change-text span.underline {
@@ -656,15 +648,11 @@ footer.email-footer .copyright {
     margin-bottom: 6.67vw !important;
   }
 
-  .email-container .change-info .change-text span {
+  .email-container .change-info .change-text span.content {
     font-size: 3.33vw !important;
     word-break: keep-all !important;
     line-height: 1.4 !important;
     margin-bottom: 3.33vw !important;
-  }
-
-  .email-container .change-info .change-text span span {
-    font-size: 3.33vw !important;
   }
 
   .email-container .change-info .change-text span.underline {
@@ -861,13 +849,9 @@ footer.email-footer .copyright {
     margin-bottom: 5.56vw !important;
   }
 
-  .email-container .change-info .change-text span {
+  .email-container .change-info .change-text span.content {
     font-size: 3.88vw !important;
     margin-bottom: 3.33vw !important;
-  }
-
-  .email-container .change-info .change-text span span {
-    font-size: 3.88vw !important;
   }
 
   .email-container .change-info .change-text span.underline {

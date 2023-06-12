@@ -207,18 +207,17 @@ a {
 .email-container .change-info .change-text span {
   display: block !important;
   font-size: 1rem;
-  margin-bottom: 1.5rem !important;
   line-height: 1.4;
 }
 
 .email-container .change-info .change-text span span {
   display: block !important;
   font-size: 1rem;
-  margin-bottom: 1.5rem !important;
   line-height: 1.4;
 }
 
 .email-container .change-info .change-text span.underline {
+  margin-top: 1rem;
   margin-bottom: 0 !important;
   text-decoration: underline !important;
 }
@@ -321,7 +320,7 @@ footer.email-footer .copyright {
   #message_view_table {
     height: 100vh !important;
   }
-  
+
   #message_view_table ul {
     padding: 2.08vw 0 !important;
   }
@@ -432,15 +431,19 @@ footer.email-footer .copyright {
   .email-container .change-info .change-text {
     margin-bottom: 4.17vw !important;
   }
-  
+
   .email-container .change-info .change-text span {
     font-size: 2.08vw !important;
     word-break: keep-all !important;
     line-height: 1.4 !important;
-    margin-bottom: 3.13vw !important;
   }
 
   .email-container .change-info .change-text span span {
+    font-size: 2.08vw !important;
+  }
+
+  .email-container .change-info .change-text span.underline {
+    margin-top: 2.08vw !important;
     font-size: 2.08vw !important;
   }
 
@@ -451,6 +454,7 @@ footer.email-footer .copyright {
   .email-container .guidebox h6 {
     font-size: 2.34vw !important;
   }
+
   .email-container .guidebox .guide-list ul {
     padding-inline-start: 5.21vw !important;
   }
@@ -480,6 +484,10 @@ footer.email-footer .copyright {
     margin: 0 !important;
     font-size: 2.08vw !important;
     line-height: 1.4 !important;
+  }
+
+  .email-container .change-info .change-text span.underline {
+    margin-top: 2.08vw !important;
   }
 
   footer.email-footer {
@@ -647,7 +655,7 @@ footer.email-footer .copyright {
   .email-container .change-info .change-text {
     margin-bottom: 6.67vw !important;
   }
-  
+
   .email-container .change-info .change-text span {
     font-size: 3.33vw !important;
     word-break: keep-all !important;
@@ -655,8 +663,13 @@ footer.email-footer .copyright {
     margin-bottom: 3.33vw !important;
   }
 
-  .email-container .change-info .change-text span {
+  .email-container .change-info .change-text span span {
     font-size: 3.33vw !important;
+  }
+
+  .email-container .change-info .change-text span.underline {
+    font-size: 3.33vw !important;
+    margin-top: 3.33vw !important;
   }
 
   .email-container .guidebox {
@@ -718,6 +731,7 @@ footer.email-footer .copyright {
   }
 
 }
+
 /* VIEWPOINT-360px */
 @media (max-width: 360px) {
   article.article_view>div {
@@ -852,8 +866,13 @@ footer.email-footer .copyright {
     margin-bottom: 3.33vw !important;
   }
 
-  .email-container .change-info .change-text span {
+  .email-container .change-info .change-text span span {
     font-size: 3.88vw !important;
+  }
+
+  .email-container .change-info .change-text span.underline {
+    font-size: 3.88vw !important;
+    margin-top: 3.88vw !important;
   }
 
   .email-container .guidebox {

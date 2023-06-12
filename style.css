@@ -782,7 +782,12 @@ footer.email-footer .copyright {
   .email-container .info .info-text span {
     margin: 0 !important;
     font-size: 3.88vw !important;
-    line-height: 1.4 !important;
+    line-height: 1.2 !important;
+  }
+
+  .email-container .info .info-text span span {
+    font-size: 3.88vw !important;
+    line-height: 1.2 !important;
   }
 
   .email-container .info .info-text br {
